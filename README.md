@@ -10,13 +10,15 @@ An overview of the best practices for the Mozilla Foundation engineering team.
 
 #### React
 
-[React](https://facebook.github.io/react/) is our preferred library for building UI for both web sites and applications.
+[React](https://facebook.github.io/react/) is our preferred library for building UI on both web sites and applications.
 
 #### npm
 
 We use [npm](https://www.npmjs.com/) as both a package manager and a [task runner](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/).
 
 #### Webpack
+
+**TODO**
 
 #### Bootstrap & Sass
 
@@ -28,13 +30,15 @@ We use a custom Bootstrap theme known as [mofo-bootstrap](https://github.com/moz
 
 ## Coding Standards
 
-Refer to [Mofo Style](https://github.com/MozillaFoundation/mofo-style).
+We enforce our coding standards with automated tooling ("linters"), that are usually tied to Travis. Failure to pass the linter (usually by running `npm test`) will result in a broken build. Your code should not be merged until all tests are passing.
+
+Refer to [Mofo Style](https://github.com/MozillaFoundation/mofo-style) for more info.
 
 ## Git Flow
 
-**TODO**
+Many of our repos follow the Git Flow convention. If the default branch is `develop`, it is likely that this is the case.
 
-See: [http://nvie.com/posts/a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model)
+For more details, see: [http://nvie.com/posts/a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model)
 
 ## Code Review
 
