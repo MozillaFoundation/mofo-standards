@@ -36,7 +36,7 @@ Refer to [Mofo Style](https://github.com/MozillaFoundation/mofo-style) for more 
 
 ## GitHub Flow
 
-Active projects and future projects will use GitHub flow for branching. This means that new features should be written in feature branches based on `master`. When a feature is **complete**, open a pull request against `master` to have the new feature (or fix) brought into the base branch.
+Active projects and future projects will use GitHub flow for branching. This means that new features should be written in feature branches based on `master`. When ready, open a pull request against `master` to have the new feature (or fix) brought into the base branch. Branches should only merge into master when fully completed, so other people's work is never blocked.
 
 For more details, see: [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
 
