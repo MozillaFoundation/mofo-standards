@@ -1,3 +1,7 @@
+<a href="https://github.com/MozillaFoundation/mofo-engineering-guide" style="text-decoration: none">
+<img src="https://cdn.rawgit.com/Pomax/mofo-engineering-guide/uses-mofo-dev/uses-mofo-dev.svg">
+</a>
+
 # Mozilla Foundation – Engineering Guidebook
 
 An overview of the best practices for the Mozilla Foundation engineering team.
