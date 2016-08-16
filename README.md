@@ -1,5 +1,5 @@
 <a href="https://github.com/MozillaFoundation/mofo-engineering-guide" style="text-decoration: none">
-<img src="./uses-mofo-dev.svg">
+<img src="https://cdn.rawgit.com/Pomax/mofo-engineering-guide/uses-mofo-dev/uses-mofo-dev.svg">
 </a>
 
 # Mozilla Foundation – Engineering Guidebook
@@ -70,3 +70,13 @@ We use webhooks to trigger automatic deployments to staging environments from th
 
 - [Mofo Bootstrap](https://github.com/mozilla/mofo-bootstrap)
 - [Mofo UI](https://github.com/mozilla/mofo-ui)
+
+## "Uses Mofo-dev" button
+
+Any project that follows our engineering guideline can be explicitly marked as doing so by adding the following button snippet to its README.md
+
+```
+<a href="https://github.com/MozillaFoundation/mofo-engineering-guide" style="text-decoration: none">
+<img src="https://cdn.rawgit.com/Pomax/mofo-engineering-guide/uses-mofo-dev/uses-mofo-dev.svg">
+</a>
+```
