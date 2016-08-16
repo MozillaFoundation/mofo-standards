@@ -1,5 +1,5 @@
 <a href="https://github.com/MozillaFoundation/mofo-engineering-guide" style="text-decoration: none">
-<img src="uses-mofo-dev.svg">
+<img src="./uses-mofo-dev.svg">
 </a>
 
 # Mozilla Foundation – Engineering Guidebook
