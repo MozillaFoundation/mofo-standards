@@ -1,3 +1,5 @@
+![https://MozillaFoundation.github.io/mofo-engineering-guide/badge.svg](https://github.com/MozillaFoundation/mofo-engineering-guide)
+
 # Mozilla Foundation – Engineering Guidebook
 
 An overview of the best practices for the Mozilla Foundation engineering team.
@@ -66,3 +68,11 @@ We use webhooks to trigger automatic deployments to staging environments from th
 
 - [Mofo Bootstrap](https://github.com/mozilla/mofo-bootstrap)
 - [Mofo UI](https://github.com/mozilla/mofo-ui)
+
+## Add the "uses mofo-standards" badge to projects
+
+In order to show that a codebase or project conforms to the standards talked about in this guide, add the following code to the top of the README.md file:
+
+```
+![https://MozillaFoundation.github.io/mofo-engineering-guide/badge.svg](https://github.com/MozillaFoundation/mofo-engineering-guide)
+```
