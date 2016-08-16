@@ -36,6 +36,12 @@ We enforce our coding standards with automated tooling ("linters"), that are usu
 
 Refer to [Mofo Style](https://github.com/MozillaFoundation/mofo-style) for more info.
 
+## License
+
+Make sure every repo contains an [MPL 2.0](https://www.mozilla.org/en-US/MPL/) `LICENSE` file. This `LICENSE` file can be added by selecting "Mozilla Public License 2.0" when you create a new repo on GitHub.
+
+For every npm-managed project, `"license" : "MPL-2.0"` should be included in the `package.json` file.
+
 ## GitHub Flow
 
 Active projects and future projects will use GitHub flow for branching. This means that new features should be written in feature branches based on `master`. When ready, open a pull request against `master` to have the new feature (or fix) brought into the base branch. Branches should only merge into master when fully completed, so other people's work is never blocked.
