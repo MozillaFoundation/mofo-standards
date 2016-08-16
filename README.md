@@ -1,4 +1,4 @@
-![https://MozillaFoundation.github.io/mofo-standards/badge.svg](https://github.com/MozillaFoundation/mofo-standards)
+[![Uses Mofo Standards](https://MozillaFoundation.github.io/mofo-standards/badge.svg)](https://github.com/MozillaFoundation/mofo-standards)
 
 # Mozilla Foundation – Engineering Guidebook
 
@@ -74,5 +74,5 @@ We use webhooks to trigger automatic deployments to staging environments from th
 In order to show that a codebase or project conforms to the standards talked about in this guide, add the following code to the top of the README.md file:
 
 ```
-![https://MozillaFoundation.github.io/mofo-engineering-guide/badge.svg](https://github.com/MozillaFoundation/mofo-engineering-guide)
+[![Uses Mofo Standards](https://MozillaFoundation.github.io/mofo-standards/badge.svg)](https://github.com/MozillaFoundation/mofo-standards)
 ```
