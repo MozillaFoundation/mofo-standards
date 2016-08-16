@@ -1,4 +1,4 @@
-![https://MozillaFoundation.github.io/mofo-engineering-guide/badge.svg](https://github.com/MozillaFoundation/mofo-engineering-guide)
+![https://MozillaFoundation.github.io/mofo-standards/badge.svg](https://github.com/MozillaFoundation/mofo-standards)
 
 # Mozilla Foundation – Engineering Guidebook
 
