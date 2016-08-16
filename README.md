@@ -1,3 +1,5 @@
+[![Mofo Engineering Guide](https://mozillafoundation.github.io/mofo-engineering-guide/badge.svg)](https://github.com/MozillaFoundation/mofo-engineering-guide)
+
 # Mozilla Foundation – Engineering Guidebook
 
 An overview of the best practices for the Mozilla Foundation engineering team.
