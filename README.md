@@ -46,7 +46,7 @@ For more details, see: [https://guides.github.com/introduction/flow/](https://gu
 
 Prior to landing a pull request in one of our repositories we require at least one developer to peer review your code.
 
-On GitHub our repos should have the following labels:
+On GitHub our repos should have the following labels (click [here](https://github.com/MozillaFoundation/mofo-standards/labels) for the canonical list of labels with their coloring):
 
 - `PR – Needs Review`
 - `PR – Needs Work`
