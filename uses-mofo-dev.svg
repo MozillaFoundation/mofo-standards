@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="20" viewBox="0 0 100 20" version="1.1">
-  <linearGradient id="a" x2="0" y2="100%">
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="20" viewBox="0 0 115 20" version="1.1">
+  <linearGradient id="a" x2="0" y2="115%">
     <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
     <stop offset="1" stop-opacity=".1"/>
-  </linearGradient><rect rx="3" width="100" height="20" fill="#555"/>
-  <rect height="20" width="100" rx="3" x="0" y="0" fill="#555555" />
-  <rect height="20" width="63" x="37" rx="3" y="0" fill="#1e92ce" />
+  </linearGradient><rect rx="3" width="115" height="20" fill="#555"/>
+  <rect height="20" width="115" rx="3" x="0" y="0" fill="#555555" />
+  <rect height="20" width="78" x="37" rx="3" y="0" fill="#1e92ce" />
   <path d="m 37,0 4,0 0,20 -4,0 z" fill="#1e92ce" />
-  <rect height="20" width="100" rx="3" x="0" y="0" style="fill:url(#a)" />
+  <rect height="20" width="115" rx="3" x="0" y="0" style="fill:url(#a)" />
   <g font-size="11" style="font-size:11px;font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;text-anchor:middle;fill:#ffffff">
-    <text y="15" x="18.5" style="fill:#010101;fill-opacity:0.3">uses</text>
-    <text y="14" x="18.5">uses</text>
-    <text y="15" x="68.5" style="fill:#010101;fill-opacity:0.3">mofo-dev</text>
-    <text y="14" x="68.5">mofo-dev</text>
+    <text y="15" x="18.5" style="fill:#010101;fill-opacity:0.3">mofo</text>
+    <text y="14" x="18.5">mofo</text>
+    <text y="15" x="75.5" style="fill:#010101;fill-opacity:0.3">engineering</text>
+    <text y="14" x="75.5">engineering</text>
   </g>
 </svg>
