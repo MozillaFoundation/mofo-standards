@@ -1,6 +1,6 @@
 [![Uses Mofo Standards](https://MozillaFoundation.github.io/mofo-standards/badge.svg)](https://github.com/MozillaFoundation/mofo-standards)
 
-# Mozilla Foundation – Engineering Guidebook
+# Mozilla Foundation – Engineering Standards
 
 An overview of the best practices for the Mozilla Foundation engineering team.
 
