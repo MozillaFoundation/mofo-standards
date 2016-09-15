@@ -42,6 +42,10 @@ Make sure every repo contains an [MPL 2.0](https://www.mozilla.org/en-US/MPL/) `
 
 For every npm-managed project, `"license" : "MPL-2.0"` should be included in the `package.json` file.
 
+## Publishing to npm
+
+When publishing a shared library to npm, be sure to include `mozillafoundation` as a collaborator. This ensures that ops has access to administrate the module if necessary.
+
 ## GitHub Flow
 
 Active projects and future projects will use GitHub flow for branching. This means that new features should be written in feature branches based on `master`. When ready, open a pull request against `master` to have the new feature (or fix) brought into the base branch. Branches should only merge into master when fully completed, so other people's work is never blocked.
