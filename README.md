@@ -48,7 +48,7 @@ When publishing a shared library to npm, be sure to include `mozillafoundation` 
 
 ## GitHub Flow
 
-Active projects and future projects will use GitHub flow for branching. This means that new features should be written in feature branches based on `master`. When ready, open a pull request against `master` to have the new feature (or fix) brought into the base branch. Branches should only merge into master when fully completed, so other people's work is never blocked.
+Active projects and future projects will use GitHub flow for branching. This means that new features should be written in feature branches in the same repo, branched from `master`. When ready, open a pull request against `master` to have the new feature (or fix) brought into the base branch. Branches should only merge into master when fully completed, so other people's work is never blocked.
 
 For more details, see: [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
 
@@ -58,17 +58,26 @@ For more details, see: [https://guides.github.com/introduction/flow/](https://gu
 
 Prior to landing a pull request in one of our repositories we require at least one developer to peer review your code.
 
+When you make a PR, assign to another developer to conduct the review. Alternatively, if the code is not ready for review yet, prefix the title with "WIP" (Work in Progress).
+
+Once ready for review, the reviewer will then use Github's built in review process to comment and approve/deny the request. They should then unassign themself from the issue and assign the submitter.
+
+## Designer Review
+
+If there are visual changes in your commit, a designer should review it as well.
 On GitHub our repos should have the following labels (click [here](https://github.com/MozillaFoundation/mofo-standards/labels) for the canonical list of labels with their coloring):
 
-- `PR – Needs Review`
-- `PR – Needs Work`
-- `PR – Good To Merge`
+- `PR - Designer Review Requested`
+- `PR - Needs Design Changes`
+- `PR - Designer Approved`
 
-When you make a PR, add the label `PR – Needs Review` and assign to another developer to conduct the review. Once a reviewer has completed their evaluation they will replace the label with either `PR – Needs Work` if changes are necessary, or `PR – Good To Merge` if the code is safe to be merged. The ticket should then be assigned back to the author.
+If design changes are required, attach the appropriate label and assign the PR to a designer as well. Since you've opened the PR from the main repo (not a fork), Heroku should auto-deploy a review instance of the app to make this easy. (If you don't have permission to push to the main repo, open the review from a fork and ask for a review instance to be spun up in your PR).
 
-If you get a `PR – Needs Work` response, then you can make the requested changes and repeat the same process as outlined above.
+The assigned designer should review the changes and add comments/change the label as appropriate, then unassign themself from the issue.
 
-If your PR is "good to merge", then you can go ahead and merge it! If your PR has multiple commits please squash them to a single descriptive commit that explains what your patch does (and *why* if applicable). If your PR is related to a GitHub issue, it's good practice to also include that number in the commit message (eg: `Resolves #342`).
+## Merging Code
+
+If your PR is approved by everyone necessary, then you can go ahead and merge it! If your PR has multiple commits please squash them to a single descriptive commit that explains what your patch does (and *why* if applicable). If your PR is related to a GitHub issue, it's good practice to also include that number in the commit message (eg: `Resolves #342`) so the original issue gets automatically closed.
 
 ## Deployment
 
