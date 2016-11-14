@@ -18,6 +18,10 @@ An overview of the best practices for the Mozilla Foundation engineering team.
 
 We use [npm](https://www.npmjs.com/) as both a package manager and a [task runner](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/).
 
+In order to ensure that our npm scripts work for Windows, Mac, and Linux developers we use the [shx](https://www.npmjs.com/package/shx) package to prefix UNIX commands.
+
+EG: `shx mkdir -p dest/css/` instead of just `mkdir -p dest/css/`
+
 #### Webpack
 
 **TODO**
